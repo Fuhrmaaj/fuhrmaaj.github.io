@@ -31,7 +31,7 @@ export default function ErrorPage() {
   return (
     <div id='error-page'>
       <h1>Oops!</h1>
-      <p>Page is still under construction, check back later!</p>
+      <p>An expected error has occurred. It's likely that this page does not exist or it has not yet been created.</p>
       <p>
         <em>{errorReport}</em>
       </p>
