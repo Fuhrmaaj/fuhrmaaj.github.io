@@ -1,7 +1,9 @@
+import { Outlet, Link } from 'react-router-dom';
 import avatar from '../assets/avatar.jpg';
 
 export default function Root() {
   return (
+    <>
       <header>
           <ul className='nav-list'>
             <li className='nav-link'>
@@ -11,7 +13,7 @@ export default function Root() {
               <p>AJ Fuhrmann</p>
             </li>
             <li className='nav-link'>
-              <a href={`/about`}>About</a>
+              <Link to={`about`}>About</Link>
             </li>
             <li className='nav-link'>
               <p>Work</p>
@@ -27,5 +29,10 @@ export default function Root() {
             </li>
           </ul>
       </header>
+
+      <div id='content'>
+        <Outlet />
+      </div>
+    </>
   );
 };
