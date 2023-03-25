@@ -11,7 +11,7 @@ export default function Root() {
               <p>AJ Fuhrmann</p>
             </li>
             <li className='nav-link'>
-              <p>About</p>
+              <a href={`/about`}>About</a>
             </li>
             <li className='nav-link'>
               <p>Work</p>
