@@ -10,10 +10,10 @@ export default function Root() {
               <img alt="AJ Fuhrmann" src={avatar} id="avatar" />
             </li>
             <li className='nav-link'>
-              <p>AJ Fuhrmann</p>
+              <Link to={'/'}>AJ Fuhrmann</Link>
             </li>
             <li className='nav-link'>
-              <Link to={`about`}>About</Link>
+              <Link to={`about`}>About Me</Link>
             </li>
             <li className='nav-link'>
               <p>Work</p>

@@ -1,6 +1,4 @@
-/*
-Document
-*/
+/* Document */
 
 /* Opinionated box model fix */
 *,
@@ -79,10 +77,6 @@ Light Mode
   }
 }
 
-/*
-Sections
-*/
-
 /* Nav bar header */
 header {
   width: 100%;
@@ -122,4 +116,13 @@ code {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+/*
+Sections
+*/
+
+section {
+  max-width: 1400px;
+  margin: auto;
 }
